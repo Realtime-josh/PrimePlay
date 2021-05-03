@@ -1,10 +1,23 @@
 .App {
   text-align: center;
-}
+};
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.primeDiv{
+  width:50%;
+  color: blue;
+  flex-wrap: wrap;
+};
+
+.primeTableDiv{
+  width:100%;
+  display:flex;
+  text-align: center;
+  justify-content:center;
+  align-items:center
+};
+
+.primeTable{
+  margin-left: 20rem
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,7 +39,7 @@
 
 .App-link {
   color: #61dafb;
-}
+};
 
 @keyframes App-logo-spin {
   from {
